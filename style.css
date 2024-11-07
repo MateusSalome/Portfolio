@@ -92,11 +92,12 @@ a {
     display: flex;
     font-size: 20px;
     gap: 20px;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .ul-nav a:hover {
     transform: scale(1.04);
+    transition: transform 0.3s ease-in-out;
 }
 
 .section {
@@ -253,7 +254,7 @@ a {
     border-radius: 4px;
     font-size: 20px;
     white-space: nowrap;
-    display: none; /* Escondida por padrão */
+    display: none;
     z-index: 1000;
 }
 
